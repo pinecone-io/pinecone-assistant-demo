@@ -21,20 +21,6 @@ This will clone the project, and prompt you for necessary secrets. Make sure you
 
 Before you start, this application requires you to build Pinecone Assistant in the Console first. You'll also need to upload files to this assistant. Any set of PDF files will do!
 
-### Environment Variables
-
-This app uses two optional environment variables to control certain features:
-
-1. `SHOW_ASSISTANT_FILES`: Set to 'true' to display the files uploaded to your Pinecone Assistant. Default is 'false'.
-2. `SHOW_CITATIONS`: Set to 'true' to display citations and references in the assistant's responses. Default is 'true'.
-
-You can set these variables in your `.env.local` file:
-
-```
-SHOW_ASSISTANT_FILES=true
-SHOW_CITATIONS=true
-```
-
 ### Start the project
 
 In order to isolate Python dependencies, create a conda environment and install the dependencies there.
